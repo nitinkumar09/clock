@@ -1,0 +1,56 @@
+#clockContainer{
+    margin:auto;
+    position:relative;
+    /* border: 2px solid red; */
+    /* background-color: red; */
+    height:40vw;
+    width:40vw; 
+    background: url(Analog_clock.svg) no-repeat;
+    background-size:100%;
+}
+#hour,#minute,#second {
+    position:absolute;
+    /* background:black; */
+    border-radius:10px;
+    transform-origin:bottom;
+}
+ #hour{
+    width: 1.8%;
+    height: 24.5%;
+    left: 49%;
+    top: 25.5%;
+    opacity: 0.8;
+    background-color:burlywood;
+
+    /* display:none;  hours  line does not visible */
+
+ }
+ #minute{
+    width: 1.4%;
+    height: 33%;
+    left: 49%;
+    top: 17%;
+    opacity: 0.8;
+    background-color: black;
+
+ /* display:none;   minute line does not visible  */
+ }
+ #second{
+    width: .8%;
+    height: 35.5%;
+    left: 49.23%;
+    top: 14.5%;
+    opacity: 0.8;
+    background-color: chocolate;
+     /* display:none; second line does not visible */
+
+ }
+ #modifi{
+  width:4px;
+  height:4px;
+  border:2px solid black;
+  border-radius:100%;
+  background-color:black;
+  margin:10px,10px,10px,10px;
+ }
+ 
