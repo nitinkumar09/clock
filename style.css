@@ -5,7 +5,7 @@
     /* background-color: red; */
     height:40vw;
     width:40vw; 
-    background: url(Analog_clock.svg) no-repeat;
+    background: url(./Analog_clock.svg) no-repeat;
     background-size:100%;
 }
 #hour,#minute,#second {
